@@ -13,7 +13,7 @@ A simple, lightweight project that allows Salesforce Flows to run as Apex Unit t
 1. In setup, navigate to apex test execution, and run the DeclarativeTestRunner apex test
 1. If your functionality does not work as expected, one of the tests that are part of DeclarativeTestRunner will fail, with your error message.
 
-## Example use case, included in the package:
+## Example use case, included in the package:   
 
 1. Create a record triggered flow that creates 5 accounts and inserts them.
 1. After the insert element, query accounts for the names of the new accounts
